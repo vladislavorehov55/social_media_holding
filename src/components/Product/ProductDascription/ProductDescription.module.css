@@ -1,0 +1,163 @@
+.wrap {
+    flex-basis: 49%;
+    flex-shrink: 1;
+    margin-left: 50px;
+    padding-top: 9px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+.headerTitle {
+    font-weight: 700;
+}
+.reviews {
+    font-weight: 400;
+}
+.title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.description {
+    font-weight: 700;
+    margin-top: 20px;
+}
+.text {
+    margin-top: 6px;
+    font-weight: 400;
+    max-width: 352px;
+    font-size: 18px;
+}
+.left {
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #E40000;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 144px;
+    font-size: 18px;
+}
+
+.costsWrap {
+    margin-top: 30px;
+    max-width: 380px;
+    border-top: 1px solid #C4C4C4;
+    padding-top: 20px;
+}
+.costBefore {
+    font-weight: 400;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.6);
+    margin-right: 10px;
+    font-size: 18px;
+}
+.costNow {
+    font-weight: 700;
+    font-size: 30px;
+}
+.block {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.btn {
+    background: #000000;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    width: 100%;
+    flex-basis: 60px;
+    position: relative;
+}
+.logo {
+    margin: 20px auto 0;
+}
+@media (max-width: 1279px) {
+    .wrap {
+        margin-left: 40px;
+    }
+    .header {
+        font-size: 12px;
+    }
+    .title {
+        font-size: 18px;
+        margin-top: 27px;
+    }
+    .description {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .text {
+        margin-top: 1px;
+        max-width: 229px;
+        font-size: 12px;
+    }
+    .left {
+        margin-top: 15px;
+        width: 103px;
+        font-size: 12px;
+    }
+    .costsWrap {
+        margin-top: 15px;
+        max-width: 294px;
+        padding-top: 15px;
+    }
+    .costBefore {
+        font-size: 14px;
+    }
+    .costNow {
+        font-size: 18px;
+    }
+    .block {
+        max-width: 294px;
+        margin-top: 17px;
+    }
+    .btn {
+        flex-basis: 40px;
+        font-size: 14px;
+    }
+    .logo {
+        width: 160px;
+    }
+}
+@media (max-width: 700px) {
+    .wrap {
+        margin-left: 0;
+        padding-top: 26px;
+    }
+    .header {
+        font-size: 12px;
+    }
+
+    .title {
+        margin-top: 10px;
+    }
+    .description {
+        margin-top: 15px;
+    }
+    .text {
+        max-width: 100%;
+    }
+    .left {
+        margin-top: 20px;
+    }
+
+    .costsWrap {
+        margin-top: 20px;
+        max-width: 100%;
+    }
+
+    .block {
+        width: 100%;
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,88 @@
+.wrap {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.title {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.questionText {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.text, .listItem {
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 650px;
+}
+.text {
+    margin-bottom: 20px;
+}
+.list {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.moreBlock {
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+}
+.hideBlock {
+    display: none;
+}
+
+@media (max-width: 1279px) {
+    .wrap {
+        padding-left: 40px;
+        padding-top: 13px;
+    }
+    .title {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    .questionText {
+        font-size: 14px;
+        margin-bottom: 5px;
+        display: inline-block;
+    }
+    .text, .listItem {
+        font-size: 14px;
+        max-width: 340px;
+    }
+    .text {
+        margin-bottom: 10px;
+    }
+    .list {
+        padding-left: 15px;
+        margin-bottom: 10px;
+    }
+    .moreBlock {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 700px) {
+    .wrap {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    .title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .text, .listItem {
+        font-size: 12px;
+        max-width: 100%;
+    }
+
+    .list {
+        padding-left: 12px;
+    }
+
+}
